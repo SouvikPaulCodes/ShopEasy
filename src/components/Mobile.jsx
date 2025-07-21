@@ -76,7 +76,7 @@ export default function mobile() {
                 <h1 className={styles.prodHead}>Smartphones</h1>
                 <div className={styles.options}>
                     <label className={styles.sortLab}> Sort by: {' '}
-                        <select onClick={(e) => handleSort(e.target.value)}>
+                        <select onChange={(e) => handleSort(e.target.value)}>
                             <option value="none" defaultChecked>None</option>
                             <option value="ascending">Prices: Low to High</option>
                             <option value="descending">Prices: High to Low</option>

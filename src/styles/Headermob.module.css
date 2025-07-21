@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'teknafregular';
+    src: url('../assets/font/teknafregular-rv0ab-webfont.woff2') format('woff2'),
+         url('../assets/font/teknafregular-rv0ab-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.shopLink {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.shopeasy img {
+    height: 50px;
+    width: auto;
+}
+
+.nav {
+    padding: 10px 10px;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.shopeasy, .buttons, .prodDrop, .homeLink {
+    display: flex;
+}
+
+.shopeasy {
+    padding-left: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+    font-size: 33px;
+    font-family: 'teknafregular', Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    align-items: center;
+    gap: 8px;
+}
+
+.themeBut img {
+    height: 40px;
+    width: auto;
+}
+
+.menuBut {
+    background-color: transparent;
+    border: none;
+}
+
+.menuBut img {
+    height: 40px;
+    width: auto;
+}
+
+.links {
+    display: none;
+    transform-origin: right;
+    text-decoration: none;
+}
+
+.visible {
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: block;
+    height: 100vh;
+    width: 50vw;
+    animation: slide 0.4s ease-out;
+    padding: 10px;
+}
+
+.homeLink {
+    justify-content: center;
+    margin: 10px 0;
+    background-color: rgb(126, 126, 126);
+}
+
+.home {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.prodName {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(112, 112, 112);
+}
+
+.prodList {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0 20px 20px;
+    background-color: rgb(114, 114, 114);
+}
+
+.prodLink {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.litH {
+    color: black;
+}
+
+.darkH {
+    color: white;
+}
+
+.prodDrop {
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.litDrop {
+    background-color: white;
+}
+
+.darkDrop {
+    background-color: black;
+}
+
+.litLink {
+    color: black;
+    text-decoration: none;
+}
+
+.darkLink {
+    text-decoration: none;
+    color: white;
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.themeBut {
+    background-color: transparent;
+    border: none;
+}
+
+.prodDrop img {
+    height: 25px;
+    width: auto;
+}
+
+.cart {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartCnt {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.cartL {
+    color: black;
+}
+
+.cartD {
+    color: white;
+}
+
+@keyframes slide {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@media (width<375px) {
+    .shopeasy img {
+        height: 50px;
+        width: auto;
+    }
+
+    .title {
+        font-size: 29px;
+    }
+
+    .themeBut img {
+        height: 30px;
+        width: auto;
+    }
+
+    .menuBut img {
+        height: 30px;
+        width: auto;
+    }
+}

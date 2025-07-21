@@ -1,0 +1,150 @@
+.litMain {
+    background-color: white;
+    color: black;
+}
+
+.darkMain {
+    background-color: black;
+    color: gold;
+}
+
+.intro {
+    background-image: url('../assets/abdul-a-6_fTMTi0HaQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20vw;
+    gap: 15%;
+    color: black;
+}
+
+.inHead {
+    font-size: 40px;
+    width: 40%;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subText {
+    font-size: 20px;
+    width: 40%;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.expHead {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.expText {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.linkCard {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: transform 0.3s ease-out;
+    background-position: center;
+    background-size: cover;
+}
+
+.tv {
+    background-image: url('../assets/boliviainteligente-zULmo_Yxu-0-unsplash.jpg');
+}
+
+.laptop {
+    background-image: url('../assets/kari-shea-1SAnrIxw5OY-unsplash.jpg');
+}
+
+.mobile {
+    background-image: url('../assets/omid-armin-AGRtDoZlpYw-unsplash.jpg');
+}
+
+.gaming {
+    background-image: url('../assets/c-d-x-PDX_a_82obo-unsplash.jpg');
+}
+
+.cardLink {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(255 255 255 / 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.linkCard:hover {
+    transform: translateY(-10px);
+}
+
+.cardLink:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .intro {
+        background-image: url('../assets/matthew-hamilton-7cFF-hrkNPc-unsplash.jpg');
+        background-size: cover;
+        background-position: left;
+        color: white;
+        padding: 15vw;
+    }
+
+    .inHead {
+        font-size: 35px;
+        width: 50%;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .subText {
+        font-size: 20px;
+        width: 50%;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .arrow {
+        align-self: flex-end;
+    }
+}
+
+@media (width<375px) {
+    .intro {
+        background-image: url('../assets/matthew-hamilton-7cFF-hrkNPc-unsplash.jpg');
+        background-size: cover;
+        background-position: left;
+        color: white;
+        padding: 15vw;
+    }
+
+    .inHead {
+        font-size: 30px;
+        width: 60%;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .subText {
+        width: 60%;
+    }
+}

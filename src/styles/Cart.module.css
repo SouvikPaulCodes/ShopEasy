@@ -1,0 +1,94 @@
+.litMain {
+    background-color: white;
+    color: black;
+}
+
+.darkMain {
+    background-color: black;
+    color: white;
+}
+
+.cartHead {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cartList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 25px;
+    justify-content: center;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    background-color: rgb(190, 190, 190);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+.itemImg {
+    width: 210px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.disPrice {
+    display: flex;
+    gap: 5px;
+}
+
+.actPrice {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.prodTitle {
+    font-size: 17px;
+}
+
+.buy {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buy input {
+    font-size: 15px;
+    text-align: center;
+}
+
+.subBut {
+    background-color: rgb(255, 111, 111);
+    border: none;
+    width: 20px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    font-size: 20px;
+}
+
+.addBut {
+    background-color: rgb(150, 255, 108);
+    border: none;
+    width: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 20px;
+}

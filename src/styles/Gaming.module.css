@@ -1,0 +1,144 @@
+.litMain {
+    background-color: white;
+    color: black;
+}
+
+.darkMain {
+    background-color: black;
+    color: white;
+}
+
+.prodHead, .error, .loading {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.loading, .error {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.sortLab {
+    font-size: 25px;
+}
+
+select {
+    height: 25px;
+    width: auto;
+}
+
+option {
+    font-size: 16px;
+}
+
+.prodList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 25px;
+    justify-content: center;
+}
+
+.prodCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    background-color: rgb(190, 190, 190);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+.prodImg {
+    width: 210px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.disPrice {
+    display: flex;
+    gap: 5px;
+}
+
+.actPrice {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.prodTitle {
+    font-size: 17px;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy input {
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.buy input::-webkit-inner-spin-button, .buy input::-webkit-outer-spin-button {
+    height: 22px;
+}
+
+.addBut {
+    height: 22px;
+    transition: transform 0.5s ease-out;
+    border-radius: 10px;
+}
+
+.addBut:hover {
+    transform: scale(1.15);
+    color: rgb(85, 255, 85);
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .prodImg {
+        height: 230px;
+    }
+
+    option {
+        font-size: 15px;
+    }
+
+    .info {
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (width<375px) {
+    .buy input {
+        width: 60%;
+    }
+}

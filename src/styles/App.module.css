@@ -1,0 +1,50 @@
+html {
+    min-height: 100vh;
+}
+
+.footL {
+    background-color: rgb(173, 173, 173);
+}
+
+.footD {
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gitLink {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerText {
+    font-size: 20px;
+}
+
+.gitLink img {
+    height: 30px;
+    width: auto;
+}
+
+.gitLink img:hover {
+    animation: spin 0.8s ease-out;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(3turn);
+    }
+}

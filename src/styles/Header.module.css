@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'teknafregular';
+    src: url('../assets/font/teknafregular-rv0ab-webfont.woff2') format('woff2'),
+         url('../assets/font/teknafregular-rv0ab-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.shopLink {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.shopeasy img {
+    height: 60px;
+    width: auto;
+}
+
+.nav {
+    padding: 10px 10px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopeasy, .buttons, .prodDrop {
+    display: flex;
+}
+
+.shopeasy {
+    padding-left: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'teknafregular', Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    align-items: center;
+    gap: 20px;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.prodName {
+    font-size: 25px;
+}
+
+.litH {
+    color: black;
+}
+
+.darkH {
+    color: white;
+}
+
+.prodDrop {
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.links {
+    display: none;
+    transform-origin: top;
+    text-decoration: none;
+}
+
+.visible {
+    position: absolute;
+    display: block;
+    animation: dropdown 0.4s ease-in-out;
+    padding-top: 5px;
+}
+
+.litDrop {
+    background-color: rgb(209, 209, 209);
+}
+
+.darkDrop {
+    background-color: rgb(46, 46, 46);
+}
+
+.prodLink {
+    padding: 5px 5px;
+}
+
+.prodLink:hover {
+    background-color: grey;
+}
+
+.litLink {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.darkLink {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.themeBut {
+    background-color: transparent;
+    border: none;
+}
+
+.themeBut img {
+    height: 35px;
+    width: auto;
+}
+
+.prodDrop img {
+    height: 25px;
+    width: auto;
+}
+
+.cartLink {
+    all: unset;
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cart img {
+    height: 35px;
+    width: auto;
+}
+
+.cartCnt {
+    font-size: 20px;
+}
+
+@keyframes dropdown {
+    0% {
+        transform: scaleY(0);
+    }
+    75% {
+        transform: scaleY(1.05);
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}

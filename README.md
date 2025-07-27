@@ -1,4 +1,4 @@
-**ShopEasy**
+# **ShopEasy**
 
 A modern e-commerce web application built with React and Vite, designed to provide a seamless online shopping experience.
 🚀 **Features**
